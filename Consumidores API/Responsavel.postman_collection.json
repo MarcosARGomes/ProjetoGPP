@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "4f3a5377-ed67-4fc7-8f2b-a769e9b12a96",
+		"name": "Responsavel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8286805"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/responsavel/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/responsavel/"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/responsavel/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/responsavel/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/responsavel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Giovanna\",\r\n    \"cpf\": \"1112123\",\r\n    \"cargo\": \"Procurador\",\r\n    \"setor\": \"Fiscal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/responsavel"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/responsavel/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/responsavel/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/responsavel/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"nome\": \"GiovannaAA\",\r\n    \"cpf\": \"1112123\",\r\n    \"cargo\": \"Procurador\",\r\n    \"setor\": \"Fiscal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/responsavel/1"
+			},
+			"response": []
+		}
+	]
+}

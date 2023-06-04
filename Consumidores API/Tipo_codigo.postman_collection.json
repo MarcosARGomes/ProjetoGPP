@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "f04124eb-4a87-4fbb-b82e-39a44210b910",
+		"name": "Tipo_codigo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8286805"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/tipocodigo/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/tipocodigo/"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipocodigo/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/tipocodigo/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipocodigo/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/tipocodigo/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipocodigo/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"nome\": \"QrCode\",\r\n        \"descricao\": \"QrCode\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/tipocodigo/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipocodigo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nome\": \"Barras\",\r\n        \"descricao\": \"Barras\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/tipocodigo"
+			},
+			"response": []
+		}
+	]
+}

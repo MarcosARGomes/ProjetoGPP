@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "82f68735-3c8d-49d4-9f1c-b3687d864bc6",
+		"name": "Tipo_local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8286805"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/tipolocal/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/tipolocal/"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipolocal/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/tipolocal/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipolocal/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/tipolocal/2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipolocal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nome\": \"Sala de TI\",\r\n        \"descricao\": \"Sala\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/tipolocal"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tipolocal/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 1,\r\n        \"nome\": \"Sala\",\r\n        \"descricao\": \"Sala\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/tipolocal/1"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "a672fba3-b05b-4a42-9757-6bfd93e371b8",
+		"name": "Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8286805"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/local/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/local/"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/local/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/local/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/local/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/local/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/local/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1,\r\n        \"nome\": \"Sala 701\",\r\n        \"andar\": \"7\",\r\n        \"numero\": \"701\",\r\n        \"responsavel_id\": \"2\",\r\n        \"tipoLocal_id\": \"2\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/local/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"nome\": \"Sala 701\",\r\n        \"andar\": \"7\",\r\n        \"numero\": \"701\",\r\n        \"responsavel_id\": 2,\r\n        \"tipoLocal_id\": 2\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/local"
+			},
+			"response": []
+		}
+	]
+}

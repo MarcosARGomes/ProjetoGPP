@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "90674cd7-88a5-47d3-ace0-32e0cff93e7b",
+		"name": "Cidade",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8286805"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/cidade/"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cidade/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/cidade/1"
+			},
+			"response": []
+		},
+		{
+			"name": "PostCidade",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nome\": \"Rio De Janeiro\",\r\n        \"codPostal\": 70,\r\n        \"estado_id\": 52\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/cidade"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/cidade/5"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/cidade/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"nome\": \"Cuiabá\",\r\n    \"codPostal\": 77,\r\n    \"estado_id\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/cidade/1"
+			},
+			"response": []
+		}
+	]
+}

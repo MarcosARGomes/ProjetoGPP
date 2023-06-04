@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "78200d11-7d48-4219-8f27-31cad6a72689",
+		"name": "Item",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "8286805"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/item/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/item/"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/item/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/item/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/item/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/item/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/item/1",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 1,\r\n        \"nome\": \"Inspiron\",\r\n        \"produto_id\": 0,\r\n        \"descricao\": \"Notebook Dell\",\r\n        \"codigo\": \"111111\",\r\n        \"local_id\": 1,\r\n        \"tipo_codigo_id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/item/1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"nome\": \"Inspiron\",\r\n        \"produto_id\": 1,\r\n        \"descricao\": \"Notebook Dell\",\r\n        \"codigo\": \"111111\",\r\n        \"local_id\": 1,\r\n        \"tipo_codigo_id\": 1\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/item"
+			},
+			"response": []
+		}
+	]
+}
